@@ -1,0 +1,25 @@
+{
+    "name": "website/php",
+    "type": "webapp",
+    "description": "website simples em php para recebimento de faturas",
+    "keywords": [
+        "website",
+        "fatura"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Silva",
+            "email": "thiagosilva.dev.pr@outlook.com"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "*",
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Website": "src/"
+        }
+    }
+}
